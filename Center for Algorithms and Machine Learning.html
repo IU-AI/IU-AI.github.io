@@ -1,0 +1,714 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0024)http://caml.indiana.edu/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta property="og:title" content="Center for Algorithms and Machine Learning">
+<meta property="og:description" content="Center for Algorithms and Machine Learning at Indiana University, Bloomington">
+<meta property="og:image" content=" ">
+<meta property="og:url" content="">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1000"> 
+<meta property="og:image:height" content="1000">
+<link rel="shortcut icon" href="./Center for Algorithms and Machine Learning_files/iu-maroon-bg.jpg">
+
+
+
+
+
+<title>Center for Algorithms and Machine Learning</title>
+
+<link href="./Center for Algorithms and Machine Learning_files/bootstrap.css" rel="stylesheet">
+<link href="./Center for Algorithms and Machine Learning_files/social-buttons.css" rel="stylesheet">
+<link href="./Center for Algorithms and Machine Learning_files/iu-template.css" rel="stylesheet"> 
+<link rel="stylesheet" href="./Center for Algorithms and Machine Learning_files/font-awesome.min.css">
+<link rel="image_src" href="http://caml.indiana.edu/">
+
+<!-- Bootstrap core CSS -->
+<link href="./Center for Algorithms and Machine Learning_files/bootstrap.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="./Center for Algorithms and Machine Learning_files/iu-template.css" rel="stylesheet">
+
+
+<link rel="image_src" href="http://caml.indiana.edu/">
+
+
+<style type="text/css">
+.title {font-weight: bold; }
+.abs {
+background-color: #eee;
+padding: 5px;
+display: none;
+}
+</style>
+
+
+<script type="text/javascript" async="" src="./Center for Algorithms and Machine Learning_files/platform.js.download" gapi_processed="true"></script><script id="facebook-jssdk" src="./Center for Algorithms and Machine Learning_files/all.js.download"></script><script type="text/javascript">
+function showAbstract(e){
+f = e;
+var div;
+for(div = e.nextSibling; div.className != "abs"; div = div.nextSibling);
+
+if (div.style.display=="block"){
+div.style.display="";
+} else {
+div.style.display="block";
+}
+return true;
+}
+</script>
+
+<script src="./Center for Algorithms and Machine Learning_files/MathJax.js.download" id="">
+  </script>
+
+
+<style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_loader{background-color:#f6f7f9;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{width:auto;height:auto;min-height:initial;min-width:initial;background:none}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{color:#fff;display:block;padding-top:20px;clear:both;font-size:18px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;bottom:0;left:0;right:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29487d;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f9;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-repeat:no-repeat;background-position:50% 50%;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_customer_chat_bounce_in{animation-duration:250ms;animation-name:fb_bounce_in}.fb_customer_chat_bounce_out{animation-duration:250ms;animation-name:fb_fade_out}.fb_invisible_flow{display:inherit;height:0;overflow-x:hidden;width:0}.fb_mobile_overlay_active{background-color:#fff;height:100%;overflow:hidden;position:fixed;visibility:hidden;width:100%}@keyframes fb_fade_out{from{opacity:1}to{opacity:0}}@keyframes fb_bounce_in{0%{opacity:0;transform:scale(.8, .8);transform-origin:100% 100%}10%{opacity:.1}20%{opacity:.2}30%{opacity:.3}40%{opacity:.4}50%{opacity:.5}60%{opacity:.6}70%{opacity:.7}80%{opacity:.8;transform:scale(1.03, 1.03)}90{opacity:.9}100%{opacity:1;transform:scale(1, 1)}}</style></head>
+
+<body id="mpc-home" class="text-center homepage"><div id="MathJax_Message" style="display: none;"></div>
+
+<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_http" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="./Center for Algorithms and Machine Learning_files/FdM1l_dpErI.html" style="border: none;"></iframe><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="./Center for Algorithms and Machine Learning_files/FdM1l_dpErI(1).html" style="border: none;"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">Toggle navigation
+<span class="icon-bar">
+<span class="icon-bar">
+<span class="icon-bar">
+</span></span></span></span></button>
+<a class="navbar-brand" href="http://caml.indiana.edu/#mission"><img style="height:20px;margin-right:20px" src="./Center for Algorithms and Machine Learning_files/iu-maroon-bg.jpg">CAML</a>
+<a class="navbar-brand" href="http://caml.indiana.edu/#events">Events</a>
+<a class="navbar-brand" href="http://caml.indiana.edu/#members">Members</a>
+<a class="navbar-brand" href="http://caml.indiana.edu/#board">Boards</a>
+<a class="navbar-brand" href="http://caml.indiana.edu/#courses">Courses</a>
+</div>
+</div>
+</div>
+
+<div class="container">
+
+<div class="iu-template">
+<br>
+<br>
+<br>
+
+<!--
+<h1 style="padding-top:0pt;margin-top:0pt;"><img src="img/sublinear.jpeg" style="width:50pt"> <font color="brown">April 18: Sublinear Day</font>
+</h1>
+-->
+
+
+
+<!--<a id="mission"><h1>Mission</h1></a>
+-->
+<br>
+
+<table cellpadding="15">
+	<tbody><tr>	
+		<td style="width:200px">
+		<img style="width:200px" src="./Center for Algorithms and Machine Learning_files/caml-logo2.png">	
+		</td>
+	
+		<td style="width:90%,border:15px">		
+			<b>
+			</b><p><b>
+				Center for Algorithms and Machine Learning (CAML)</b> is housed at the <a href="http://soic.indiana.edu/">School of Informatics and Computing</a> at <a href="https://www.indiana.edu/">Indiana University, Bloomington</a>. In the recent years machine learning has flourished with the availability of data and computational resources leading to unprecedented successes in prediction and control. 
+			</p>
+			<p>
+			Our mission is to bring together researchers across different departments at the school in order to foster excellence in algorithm development for machine learning. Our center is at the forefront of theoretical foundations of algorithm development as well as large scale applications to computer vision and health. The core set of members of CAML also includes faculty from the <a href="http://stat.indiana.edu/">Department of Statistics</a> which plays a crucial role in applications of machine learning to data analysis. 
+			</p>
+		</td>
+	
+	</tr>
+</tbody></table>
+
+<p>
+<!--
+<table style="width:100%">
+	<tr>	
+	<td>
+		<ul style="list-style:none;">
+<li> <b>When?</b> <br> August 27&ndash;28, 2015.
+<li> <b>Where?</b> <br> DIMACS, located at <a href="https://goo.gl/maps/ICxGh ">CoRE building</a> at Rutgers University. See information <a href="http://dimacs.rutgers.edu/Directions/Directions1.html">here</a> for directions. 
+<li> <b>What?</b> <br> See the <a href="#schedule">schedule</a> and the <a href="#speakers">list of speakers</a>.
+<li> <b>Poster session?</b> We encourage the visitors (especially students and postdocs) to present a poster at the poster session that will take place in the evening of Day 1 (see <a href="#day1">schedule</a>). Please, submit a title and a one-paragraph abstract of your poster by <font color="red"><b>August 20</b></font> to Grigory Yaroslavtsev (grigory at grigory.us).
+In the title of your e-mail please include "DIMACS Poster: YOUR_NAME". Notifications of acceptance will be sent shortly after the deadline.
+<li> <b>Do I need to register?</b> <br> Yes, registration is <font color="red"><b>required</b></font>. Note that in many cases the <a href="http://dimacs.rutgers.edu/Workshops/ParallelAlgorithms/">registration fee</a> can be either reduced or waived. The early registration deadline is August 20. 
+
+</ul>
+<br>
+<p><a href="http://home.dimacs.rutgers.edu/Workshops/ParallelAlgorithms/registpay.html" role="button" class="btn btn-primary btn-lg btn-block"><b>Register</b></a></p>
+</td>
+<td align="middle">
+<img src="pics/mpc/dimacs_logo_small.gif"></img>
+<br>
+<img align="middle" src="pics/mpc/dimacs_logo_art.png"></img>
+</td>
+</tr>
+</table>
+
+-->
+
+<!--
+<br>
+
+<div class="fb-like" data-href="http://grigory.github.io/mpc-workshop-dimacs.html" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://grigory.github.io/mpc-workshop-dimacs.html" data-via="gyaroslavtsev" align="top">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+-->
+<!-- Place this tag where you want the +1 button to render. -->
+
+<!--
+<div class="g-plusone" data-annotation="inline" data-width="100" data-href="http://grigory.github.io/mpc-workshop-dimacs.html" align="top"></div>
+
+
+-->
+
+<!-- Place this tag after the last +1 button tag. -->
+<script type="text/javascript">
+(function() {
+var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+po.src = 'https://apis.google.com/js/platform.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+</script>
+
+</p>
+
+
+
+<a id="events"><h1>Events and Seminars</h1></a>
+
+<h3>Current Seminars and Talk Series</h3>
+<ul class="fa-ul">
+	<li> <i class="fa-li fa fa-bullhorn"></i> <b><a href="http://vision.soic.indiana.edu/iis-talk-series/">Intelligent and Interactive Systems Talk Series</a></b> – weekly meetings on Mondays, 2:30pm at Informatics West, 107. Organizer: <a href="http://www.cs.indiana.edu/~djcran/">David Crandall</a>.</li>
+	<li><i class="fa-li fa fa-bullhorn"></i> <b><a href="http://www.stat.indiana.edu/news/seminar.phtml?id=1">Statistics Colloquium</a></b> – weekly meetings on Mondays, 4pm at various locations. Organizer: <a href="http://pages.iu.edu/~mtrosset/">Michael Trosset</a>.</li>
+	<li> <i class="fa-li fa fa-bullhorn"></i> <b><a href="https://sites.google.com/site/plustcs/">Theoretical Computer Science+ Online Talk Series</a></b> – biweekly meetings on Wednesdays, 1pm at Luddy Hall, various locations. Organizers: <a href="https://www.linkedin.com/in/erfan-sadeqi-azer-8bb16767/">Erfan Sadeqi Azer</a> and <a href="http://grigory.us/">Grigory Yaroslavtsev</a>. </li>
+</ul>
+
+
+<h3>Events</h3>
+<ul class="fa-ul">
+	<li><i class="fa-li fa fa-bullhorn"></i><a href="http://caml.indiana.edu/mtd.html">67th Midwest Theory Day</a> at Indiana University, Bloomington. April 15-16, 2017.</li>
+</ul>
+
+<div>
+<h1 id="members">Core Members</h1>	
+<h2> <i class="fa fa-group"></i> Department of Computer Science</h2>
+<ul class="list-thumbnail">
+
+<li> <img alt="TBD" src="./Center for Algorithms and Machine Learning_files/david.jpg">
+<h3>David Crandall</h3>
+<p align="left">
+<a href="http://www.cs.indiana.edu/~djcran/">David Crandall</a> is an Associate Professor in the School of
+Informatics and Computing at Indiana University, Bloomington, where he
+is a member of the programs in Computer Science, Informatics,
+Cognitive Science, and Data Science. He received the Ph.D. in computer
+science from Cornell University in 2008 and the M.S. and B.S. degrees
+in computer science and engineering from the Pennsylvania State
+University in 2001.  He was a Postdoctoral Research Associate at
+Cornell from 2008-2010, and a Senior Research Scientist with Eastman
+Kodak Company from 2001-2003. His research in
+computer vision and applied machine learning has been funded by the
+National Science Foundation (including a CAREER award in 2013), IARPA,
+U.S. Navy, the Air Force Office of Scientific Research, Google, the Lilly
+Endowment, and Eastman Kodak Company.
+</p>
+
+</li><li> <img alt="TBD" src="./Center for Algorithms and Machine Learning_files/davidl.jpg">
+<h3>David Leake</h3>
+<p align="left">
+<a href="http://www.cs.indiana.edu/~leake/">David Leake</a> is Executive Associate Dean and Professor of Computer Science in the School of Informatics and Computing at Indiana University Bloomington, a member of the Indiana University Cognitive Science faculty and data science program, and affiliate member of the Data to Insight Center. He received his Ph.D. in Computer Science from Yale University in 1990. His research interests include case-based reasoning, context, explanation, human-centered computing, intelligent user interfaces, introspective reasoning, and knowledge capture and management.  He has over 150 publications in these areas, with over 7000 Google Scholar citations. He chairs the AAAI Publications Committee and served as Editor in Chief of AI Magazine, the official magazine of AAAI, for 17 years. 
+</p>
+
+
+
+
+</li><li> <img alt="TBD" src="./Center for Algorithms and Machine Learning_files/pedja.jpg">
+<h3>Predrag Radivojac</h3>
+<p align="left">
+<a href="http://www.cs.indiana.edu/~predrag/">Predrag Radivojac</a> is a Professor of Computer Science at Indiana University, Bloomington. Prof. Radivojac received the B.S. degree from the University of Novi Sad in 1994 and M.S. degree in 1997 from the University of Belgrade, both in Electrical Engineering. In 2003 he received the Ph.D. degree in Computer and Information Sciences from Temple University. In 2004 he held a post-doctoral position at Indiana University School of Medicine, after which he joined Indiana University, Bloomington as a faculty member. Prof. Radivojac's research interests span the areas of computational biology and machine learning. He is interested in semi-supervised learning, kernel-based learning, and structured-output learning with applications to open-world domains such as protein function prediction, genome interpretation, and mass-spectrometry proteomics. Prof. Radivojac received the National Science Foundation CAREER Award in 2007 and was an August-Wilhelm Scheer Visiting Professor at the Technical University of Munich in 2016.
+</p>
+</li><li> <img alt="TBD" src="./Center for Algorithms and Machine Learning_files/michaels.jpg">
+<h3>Michael S. Ryoo</h3>
+<p align="left">
+<a href="http://michaelryoo.com/">Michael S. Ryoo</a> is an Assistant Professor of the School of Informatics and Computing at Indiana University. His research interest is within the areas of Computer Vision and Robotics, with a particular emphasis on human activity recognition/learning, first-person computer vision, and human-robot interaction. Before joining IU, Dr. Ryoo was a staff researcher within the Robotics Section of the NASA's Jet Propulsion Laboratory (JPL) from 2011 to 2015. Dr. Ryoo received the Ph.D. degree from the University of Texas at Austin in 2008, and the B.S. degree from the Korea Advanced Institute of Science and Technology (KAIST) in 2004. He has been organizing a number of tutorials and workshops at major Computer Vision conferences including CVPR 2011/2014/2016, and is the winner of the best vision paper award at ICRA 2016.
+</p>
+
+
+</li><li> <img alt="TBD" src="./Center for Algorithms and Machine Learning_files/chung-chieh.jpg">
+<h3>Chung-chieh Shan</h3>
+<p align="left">
+<a href="http://homes.soic.indiana.edu/ccshan/">Chung-chieh Shan</a> is an assistant professor at the School of Informatics and Computing at Indiana University, Bloomington.  He studies what things mean that matter.  He works to tap into and enhance the amazing human ability to create concepts, combine concepts, and share concepts, by lining up formal representations and what they represent.  To this end, in the short term, he develops programming languages that divide what to do and how to do it into modules that can be built and reused separately.  In particular, he develops so-called probabilistic programming languages, which divide stochastic models and inference algorithms into modules that can be built and reused separately.  In the long term, he hopes to supplant first-order logic by something that does not presuppose a fact of the matter what things there are, though there may be a fact of the matter what stuff there is.
+</p>
+
+</li><li> <img alt="TBD" src="./Center for Algorithms and Machine Learning_files/donald.jpg">
+<h3>Donald Williamson</h3>
+<p align="left">
+<a href="http://homes.soic.indiana.edu/williads/">Donald Williamson</a> is an assistant professor in the School of Informatics and Computing at Indiana University. His research broadly addresses ways that enable computers to process, understand, and response to sound information. He has specific interests in the areas of speech separation, speech recognition, speaker identification, and music processing, to name a few, where he is interested in using these methods in real-world devices, such as cell phones, hearing aids, and robots. A combination of machine learning, signal processing, and statistical-based techniques are used. Donald completed his Ph.D. in the Computer Science and Engineering department at The Ohio State University, under the supervision of Prof. DeLiang Wang. Prior to that, he was fortunate to be a Member of the Engineering Staff at Lockheed Martin for a few years. He received a Masters of Science degree from the Department of Electrical and Computer Engineering at Drexel University and a Bachelor's degree from the Department of Electrical and Computer Engineering at the University of Delaware.
+</p>
+
+</li><li>
+<img alt="" src="./Center for Algorithms and Machine Learning_files/grigory.jpg">
+<h3>Grigory Yaroslavtsev </h3> 
+<p align="left">
+<a href="http://grigory.us/">Grigory Yaroslavtsev</a> is an assistant professor of Computer Science at Indiana University. Prior to that he was a postdoctoral fellow at the Warren Center for Network and Data Sciences at the University of Pennsylvania. He was previously a Postdoctoral Fellow in Mathematics at Brown University, ICERM. He received his Ph.D. in Theoretical Computer Science in 2014 from Pennsylvania State University and an M.Sc. in Applied Mathematics and Physics from the Academic University of the Russian Academy of Sciences in 2010.
+Grigory works on efficient algorithms for sparsification, summarization and testing properties of large data, including approximation, parallel and online algorithms, learning theory and property testing, communication and information complexity and private data release.
+</p>
+
+<!--
+<li>
+<img alt=""  src="pics/caml/qin.jpg">
+<h3>Qin Zhang</h3> 
+<p align="left">
+<a href="http://homes.soic.indiana.edu/qzhangcs/">Qin Zhang</a> is an assistant professor at the Indiana University, Bloomington.  He received a B.S. degree from Fudan University and a Ph.D. from Hong Kong University of Science and Technology.  He also spent a couple of years as a post-doc at the Theory Group of IBM Almaden Research Center, and the Center for Massive Data Algorithmics at Aarhus University.  He is interested in algorithms for big data, in particular, data stream algorithms, sublinear algorithms, algorithms on distributed data; I/O-efficient algorithms, data structures, database algorithms and communication complexity.
+</p>
+-->
+
+
+</li><li>
+<img alt="" src="./Center for Algorithms and Machine Learning_files/yuan.png">
+<h3>Yuan Zhou</h3> 
+<p align="left">
+<a href="http://homes.soic.indiana.edu/yzhoucs/">Yuan Zhou</a> is an assistant professor of Computer Science at Indiana University.
+Prior to that he was an instructor in applied mathematics at MIT. Yuan received his Ph.D. from Carnegie Mellon University in 2014. His research interests span theoretical computer science and operations research with emphasis on linear programming and semidefinite programming relaxations, discrete optimization, approximation algorithms and hardness of approximation, harmonic analysis of discrete functions, process flexibility and decision under uncertainty with applications to crowdsourcing.
+</p>
+
+
+
+</li></ul>
+<h2> <i class="fa fa-group"></i> Department of Informatics</h2>
+<ul class="list-thumbnail">
+<li> <img alt="TBD" src="./Center for Algorithms and Machine Learning_files/sriraam.jpg">
+<h3>Sriraam Natarajan</h3>
+<p align="left">
+<a href="http://homes.soic.indiana.edu/natarasr/">Sriraam Natarajan</a> is an Associate Professor of Informatics and Computer Science at Indiana University. He was previously an Assistant Professor at Indiana University, Wake Forest School of Medicine, a post-doctoral research associate at University of Wisconsin-Madison and had graduated with his PhD from Oregon State University. His research interests lie in the field of Artificial Intelligence, with emphasis on Machine Learning, Statistical Relational Learning and AI, Reinforcement Learning, Graphical Models and Biomedical Applications. He has received the Young Investigator award from US Army Research Office. 
+<!--
+He is an editorial board member of JAIR and DAMI and is the electronics publishing editor of JAIR. He is the organizer of the key workshops in the field of Statistical Relational Learning and has  co-organized the AAAI 2010, the UAI 2012, AAAI 2013, AAAI 2014, UAI 2015 workshops on Statistical Relational AI (StarAI), ICML 2012 Workshop on Statistical Relational Learning, and the ECML PKDD 2011 and 2012 workshops on Collective Learning and Inference on Structured Data (Co-LISD). He was also the co-chair of the AAAI student abstract and posters at AAAI 2014 and AAAI 2015 and the chair of the AAAI students outreach at AAAI 2016 and 2017.
+-->
+
+
+</p></li><li> <img alt="TBD" src="./Center for Algorithms and Machine Learning_files/chris.jpg">
+<h3>Chris Raphael</h3>
+<p align="left">
+<a href="https://www.sice.indiana.edu/all-people/profile.html?profile_id=279">Chris Raphael</a> heads the Music Informatics program in the School of Informatics, Computing, and Engineering at Indiana University, as well as holding adjunct appointments in the Jacobs School of Music, Cognitive Science, and Statistics. After receiving his PhD in Applied Mathematics from Brown University in 1991, he worked on a wide range of problems in both industry and academia including Arabic character recognition, magnetic resonance spectroscopy and mine detection before coming to focus on music. His musical research includes accompaniment systems, computer generated musical analysis, musical signal processing, and modeling of musical interpretation.
+
+ 
+<!--
+He is an editorial board member of JAIR and DAMI and is the electronics publishing editor of JAIR. He is the organizer of the key workshops in the field of Statistical Relational Learning and has  co-organized the AAAI 2010, the UAI 2012, AAAI 2013, AAAI 2014, UAI 2015 workshops on Statistical Relational AI (StarAI), ICML 2012 Workshop on Statistical Relational Learning, and the ECML PKDD 2011 and 2012 workshops on Collective Learning and Inference on Structured Data (Co-LISD). He was also the co-chair of the AAAI student abstract and posters at AAAI 2014 and AAAI 2015 and the chair of the AAAI students outreach at AAAI 2016 and 2017.
+-->
+
+
+
+</p></li></ul>
+<h2> <i class="fa fa-group"></i> Department of Intelligent Systems Engineering</h2>
+
+<ul class="list-thumbnail">
+<li> <img alt="TBD" src="./Center for Algorithms and Machine Learning_files/minje.jpg">
+<h3>Minje Kim</h3>
+<p align="left">
+
+<a href="http://minjekim.com/">Minje Kim</a> received his PhD degree in Computer Science from the University of Illinois at Urbana-Champaign (2016). Before joining UIUC, he worked as a researcher in ETRI, a national lab in Korea, from 2006 to 2011. He did his Bachelor’s and Master’s studies in the Division of Information and Computer Engineering at Ajou University and in the Department of Computer Science and Engineering at POSTECH in 2004 and 2006, respectively. His research focuses on designing machine learning models applied to signal processing (e.g. audio and the other time series data), stressing their computational efficiency in the resource-constrained environments or in the implementations involving large unorganized datasets. He received Richard T. Cheng Endowed Fellowship from UIUC in 2011. Google and Starkey grants also honored his ICASSP papers as the outstanding student papers in 2013 and 2014, respectively. 
+</p>
+
+
+
+</li></ul>
+
+<h2> <i class="fa fa-group"></i> Department of Statistics</h2>
+
+<ul class="list-thumbnail">
+
+<li> <img alt="TBD" src="./Center for Algorithms and Machine Learning_files/daniel.jpg">
+<h3>Daniel McDonald</h3>
+<p align="left">
+<a href="http://pages.iu.edu/~dajmcdon/">Daniel McDonald</a> is an Assistant Professor of Statistics and Adjunct Assistant Professor of Computer Science at Indiana University, Bloomington. He was an undergraduate at IU, receiving a B.S.O.F.  in cello performance from the <a href="http://www.music.indiana.edu/">IU Jacobs School of Music</a> and a B.A. in economics and mathematics. After college, he worked at the <a href="https://www.stlouisfed.org/">Federal Reserve Bank of St. Louis</a> before enrolling at <a href="http://www.stat.cmu.edu/">Carnegie Mellon</a> to pursue a doctorate in statistics. Daniel's main research interests involve the estimation and quantification of prediction risk. He is especially interested in developing methods for evaluating the predictions made using complex dependent data. This includes the application of statistical learning techniques to time-series prediction problems in the context of economic forecasting, as well as investigations of cross-validation and the bootstrap for risk estimation, and examining the trade-offs between prediction risk and computational costs.
+</p><p>
+
+
+</p></li><li>
+<img alt="TBD" src="./Center for Algorithms and Machine Learning_files/michael-new.jpg">
+<h3>Michael Trosset</h3> 
+<p align="left">
+<a href="http://pages.iu.edu/~mtrosset/">Michael W. Trosset</a> is Professor and Chair of IU’s Department of Statistics.  As an undergraduate, he studied mathematics at Rice University; as a graduate student, he studied statistics at the University of California at Berkeley.  Before joining IU in 2006, he taught at the University of Arizona and the College of William &amp; Mary.  His primary research interests lie in the general areas of high-dimensional multivariate data analysis and computational statistics.  Much of his work is concerned with techniques for constructing low-dimensional Euclidean representations of data, as in multidimensional scaling, graph embedding, and manifold learning.
+</p>
+
+</li><li>
+<img alt="TBD" src="./Center for Algorithms and Machine Learning_files/andrew.jpg">
+<h3>Andrew Womack</h3> 
+<p align="left">
+<a href="http://pages.iu.edu/~ajwomack/">Andrew Womack</a> is an assistant professor in the Department of Statistics and Indiana University. Before joining IU, he was a postdoctoral researcher at the University of Florida and received his doctorate from Washington University in St. Louis. Andrew's research focuses on "objective" Bayesian methodologies in complex problems and considerations of model space uncertainty in inference. This includes the development of model space priors for low dimensional representations of high dimensional objects and the efficient computation thereof.
+</p>
+
+</li></ul>
+
+
+<h1>Affiliate Members</h1>
+
+<!--
+<h2> <i class="fa fa-group"></i> Department of Computer Science and Informatics</h2>
+<h2> <i class="fa fa-group"></i> Department of Statistics</h2>
+-->
+
+<h2> <i class="fa fa-group"></i> Department of Mathematics</h2>
+<ul class="list-thumbnail">
+
+<li> <img alt="TBD" src="./Center for Algorithms and Machine Learning_files/russell.jpg">
+<h3>Russell Lyons</h3>
+<p align="left">
+<a href="http://mypage.iu.edu/~rdlyons/">Russell Lyons</a>
+is James H. Rudy Professor of Mathematics and Adjunct
+Professor of Statistics.  He obtained his Ph.D. at the University of
+Michigan in 1983, then enjoyed a postdoc in Paris and a job at Stanford
+University.  He frequently visits Microsoft Research. His primary area of
+research is discrete probability and its connections to other areas of
+mathematics, including ergodic theory, geometric group theory, and
+combinatorics. He is also very interested in the teaching of statistics
+and has done some research in statistics. Lyons was a Sloan Foundation
+Fellow, a Visiting Miller Research Professor, an Institute of Mathematical
+Statistics Medallion Lecturer, an Invited Speaker at the International
+Congress of Mathematicians, and gave an Hour Address at the Joint
+Mathematics Meetings.  He is a Fellow of the American Mathematical
+Society.
+
+</p></li>
+</ul>
+
+
+
+
+<a id="board"><h1>Advisory Boards</h1></a>
+<a id="extboard"><h2>External Advisory Board</h2></a>
+
+<ul class="list-thumbnail">
+	
+<li>
+<img alt="" src="./Center for Algorithms and Machine Learning_files/john.jpg">
+<h4>John Langford (Microsoft Research, NYC)</h4>
+<p align="left">
+<a href="http://hunch.net/~jl/">John Langford</a> studied Physics and Computer Science at the California Institute of Technology, earning a double bachelor's degree in 1997, and received his Ph.D. from Carnegie Mellon University in 2002. Since then, he has worked at Yahoo!, Toyota Technological Institute, and IBM's Watson Research Center. He is also the primary author of the popular Machine Learning weblog, hunch.net and the principle developer of Vowpal Wabbit. Previous research projects include Isomap, Captcha, Learning Reductions, Cover Trees, and Contextual Bandit learning. For more information visit <a href="http://hunch.net/~jl">his homepage</a>.
+</p>
+
+
+</li><li>
+<img alt="" src="./Center for Algorithms and Machine Learning_files/edo.jpg">
+<h4>Edo Liberty (Amazon Research, NYC)</h4>
+<p align="left">
+<a href="https://edoliberty.github.io/">Edo Liberty</a> is a Principal Scientist at Amazon's AWS Machine Learning group. 
+Previously he was a Research Director and Yahoo and the head of Yahoo Research in New York.
+He received his BSc in CS and Physics from Tel Aviv University and his PhD in CS from Yale.
+After his postdoctoral position at Yale in the Applied Math department he co-founded a New York based startup.
+In 2009 he joined Yahoo Research. His research focuses on the theory and practice of large scale data algorithms.
+
+	
+</p></li><li>
+<img alt="" src="./Center for Algorithms and Machine Learning_files/vahab.jpg">
+<h4>Vahab Mirrokni (Google Research, NYC)</h4>
+<p align="left">
+<a href="https://people.csail.mit.edu/mirrokni/Welcome.html">Vahab Mirrokni</a> is a Principal Research Scientist, heading the algorithms research group at Google Research, New York. He received his PhD from MIT in 2005 and his B.Sc. from Sharif University of Technology in 1999. He joined Google Research in New York in 2008, after spending a couple of years at Microsoft Research, MIT and Amazon.com. He is the co-winner of a SODA'05 best student paper award and ACM EC'08 best paper award. His research areas include algorithms, algorithmic game theory, combinatorial optimization, and social networks analysis. At Google, he is mainly working on algorithmic and economic problems related to search and online advertising. Recently he is working on online ad allocation problems, distributed algorithms for large-scale graph mining, and mechanism design for advertising exchanges.
+</p>
+<!--
+<li>
+<img alt="https://sites.google.com/site/stevethebayesian/"  src="pics/caml/steve.jpg">
+<h4>Steven L. Scott (Google, Mountain View)</h4>
+<p align="left">
+<a href=" ">Steven L. Scott</a> is a Senior Economic Analyst at Google, where he has worked since 2008.  He received his PhD from the Harvard statistics department in 1998.  He spent 9 years on the faculty of the Marshall
+School of Business at the University of Southern California.  Between USC and Google he also had a brief tenure at Capital One, where he was a Director of Statistical Analysis.
+-->
+
+</li><li>
+<img alt="" src="./Center for Algorithms and Machine Learning_files/maxim.jpg">
+<h4>Maxim Sviridenko (Yahoo! Research, NYC)</h4>
+<p align="left">
+<a href="https://www.linkedin.com/in/maxim-sviridenko-44822991">Maxim Sviridenko</a> is a Principal Research Scientist at Yahoo! Research, NYC where he manages the Scalable Algorithms and Machine Learning group. The group focuses on solving Machine Learning, Mathematical Optimization and Computational Economics problems on Web-scale data using latest techniques and algorithms from these fields.
+Previously Maxim was a staff member at the IBM T.J. Watson Research Center and a professor at the University of Warwick. His research interests span optimization, scheduling, distributed and approximation algorithms among other things.
+</p>
+
+
+</li></ul>
+
+<a id="intboard"><h2>Internal Advisory Board</h2></a>
+
+<ul class="list-thumbnail">
+
+<li> <img alt="TBD" src="./Center for Algorithms and Machine Learning_files/dirk.gif">
+<h3>Dirk van Gucht</h3>
+<p align="left">
+<a href="https://www.cs.indiana.edu/~vgucht/">Dirk van Gucht</a> is a professor of Computer Science at Indiana University, Bloomington. His general areas of research are database theory and data mining.
+</p></li>
+
+<li> <img alt="TBD" src="./Center for Algorithms and Machine Learning_files/richard.jpg">
+<h3>Richard Shiffrin</h3>
+<p align="left">
+<a href="http://shiffrin.cogs.indiana.edu/">Richard Shiffrin</a> is a Distinguished Professor and Luther Dana Waterman Professor of Psychological and Brain Sciences. His research interest include short and long term memory, attention stages of information processing, retrieval and forgetting, mathematical computer simulation, neural network models. 
+</p></li>
+
+
+<li> <img alt="TBD" src="./Center for Algorithms and Machine Learning_files/haixu.jpg">
+<h3>Haixu Tang</h3>
+<p align="left">
+<a href="http://www.informatics.indiana.edu/hatang/">Haixu Tang</a> is a professor of Informatics and Computing at Indiana University, Bloomington. He is working on algorithmic and statistical problems in bioinformatics including computational mass spectrometry, mobile genetic elements, genome privacy, bacterial genomics and metagenomics. 
+</p></li>
+
+<li> <img alt="TBD" src="./Center for Algorithms and Machine Learning_files/stanley.jpg">
+<h3>Stanley Wasserman</h3>
+<p align="left">
+
+<a href="http://mypage.iu.edu/~stanwass/">Stanley Wasserman</a> is the James H. Rudy Professor of Statistics, Psychology, and Sociology, and is a member of the
+Department of Psychological and Brain Sciences and the Department of Statistics.   His research interests 
+are network science and, specifically, statistical models for social networks.
+</p></li>
+
+</ul>
+
+
+
+<a id="courses"><h1>Courses</h1></a>
+
+<table>
+	<tbody><tr>
+		<td>
+<h3>Computer Science and Informatics</h3>
+<ul class="fa-ul">
+	<li><i class="fa-li fa fa-group"></i> CSCI-I400/B490: <b>Introduction to Computer Vision</b>. 
+	<ul>
+		<li>Taught in the past by Michael S. Ryoo.
+	</li></ul>
+	</li><li><i class="fa-li fa fa-group"></i> CSCI-B455: <b>Principles of Machine Learning</b>. 
+	<ul>
+		<li>Taught in the past by Martha White.
+	</li></ul>
+	</li><li><i class="fa-li fa fa-group"></i> CSCI-B490: <b>Image Processing and Recognition</b>. 
+	<ul>
+		<li>Taught in the past by David Crandall.
+	</li></ul>
+	</li><li><i class="fa-li fa fa-group"></i> CSCI-B490: <b>Data Mining</b>. 
+	<ul>
+		<li>Taught in the past by Predrag Radivojac.
+	</li></ul>
+	
+	</li><li><i class="fa-li fa fa-group"></i> CSCI-I526/B556: <b>Applied Machine Learning</b>. 
+	<ul>
+		<li>Taught in the past by Sriraam Natarajan. </li>
+	</ul>
+
+	</li><li><i class="fa-li fa fa-group"></i> CSCI-B551: <b>Elements of Artificial Intelligence</b>. 
+	<ul>
+		<li>Taught in the past by Tor Lattimore, Sriraam Natarajan, Predrag Radivojac. </li>
+	</ul>
+	</li><li><i class="fa-li fa fa-group"></i> CSCI-B554: <b>Probabilistic Approaches to Artificial Intelligence</b>. 
+	<ul>
+		<li>Taught in the past by Martha White.
+	</li></ul>	
+	</li><li><i class="fa-li fa fa-group"></i> CSCI-B555: <b>Machine Learning</b>. 
+	<ul>
+		<li>Taught in the past by Martha White.
+	</li></ul>
+
+	</li><li><i class="fa-li fa fa-group"></i> CSCI-B565: <b>Data Mining</b>. 
+	<ul>
+		<li>Taught in the past by Predrag Radivojac.
+	</li></ul>
+	
+	</li><li><i class="fa-li fa fa-group"></i> CSCI-I590/B659:<b> Vision for Intelligent Robotics</b>. 
+	<ul>
+		<li> Taught in the past by Michael S. Ryoo.
+	</li></ul>
+
+	
+	</li><li><i class="fa-li fa fa-group"></i> CSCI-B659: <b>Bandit Algorithms</b>. 
+	<ul>
+		<li> Taught in the past by Tor Lattimore.
+	</li></ul>
+	
+	
+	</li><li><i class="fa-li fa fa-group"></i> CSCI-B609:<b> Foundations of Data Science</b>. 
+	<ul>
+		<li>Taught in the past by Grigory Yaroslavtsev. </li>
+	</ul>
+
+	</li><li><i class="fa-li fa fa-group"></i> CSCI-B609: <b>Theorist's Toolkit</b>. 
+	<ul>
+		<li>Taught in the past by Yuan Zhou. </li>
+	</ul>
+	</li><li><i class="fa-li fa fa-group"></i> CSCI-B652: <b>Computer Models of Symbolic Learning</b>. 
+	<ul>
+		<li>Taught in the past by David Leake.
+	</li></ul>
+	</li><li><i class="fa-li fa fa-group"></i> CSCI-B657: <b>Computer Vision</b>. 
+	<ul>
+		<li>Taught in the past by David Crandall.
+	</li></ul>
+	</li><li><i class="fa-li fa fa-group"></i> CSCI-B659: <b>Stochastic Optimization for Machine Learning</b>. 
+	<ul>
+		<li> Taught in the past by Martha White.
+	</li></ul>
+	</li><li><i class="fa-li fa fa-group"></i> CSCI-B659: <b>Image Processing and Recognition</b>. 
+	<ul>
+		<li>Taught in the past by David Crandall.
+	</li></ul>
+</li></ul>
+</td>
+<td valign="top">
+<h3>Statistics</h3>
+
+<ul class="fa-ul">
+	<li><i class="fa-li fa fa-group"></i> STAT-S432: <b>Applied Linear Models II</b>. 
+	<ul>
+		<li>Taught in the past by Daniel McDonald.
+	</li></ul>
+	</li><li><i class="fa-li fa fa-group"></i> STAT-S682: <b>Topics in Mathematical Statistics: Machine Learning</b>. 
+	<ul>
+		<li>Taught in the past by Daniel McDonald.
+	</li></ul>
+	
+	</li><li><i class="fa-li fa fa-group"></i> STAT-S721/722: <b>Advanced Statistical Theory I,II</b>. 
+	<ul>
+		<li>Taught in the past by Daniel McDonald.
+	</li></ul>
+
+
+	</li><li><i class="fa-li fa fa-group"></i> STAT-S771: <b>Advanced Data Analysis</b>. 
+	<ul>
+		<li>Taught in the past by Daniel McDonald.
+	</li></ul>
+
+	</li><li><i class="fa-li fa fa-group"></i> STAT-S785: <b>Seminar on Statistical Theory</b>. 
+	<ul>
+		<li>Taught in the past by Daniel McDonald.
+	</li></ul>
+
+</li></ul>
+
+<h3>Mathematics</h3>
+
+<ul class="fa-ul">
+	<li><i class="fa-li fa fa-group"></i> MATH-563/564: <b>Theory of Probability I,II</b>. 
+	<ul>
+		<li> Offered in Fall'18 and taught in the past by Russell Lyons.
+	</li></ul>
+</li></ul>
+
+</td>
+</tr>
+
+
+
+</tbody></table>
+
+
+
+
+</div></div></div></body></html>
